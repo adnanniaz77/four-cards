@@ -26,21 +26,26 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #fafafa;
     font-size: 15px;
+    color: hsl(234, 12%, 34%);
 }
 
 .main-title h1 {
     font-size: 2.2rem;
-    word-spacing: 0.5rem;
+    word-spacing: 0.4rem;
 }
 
-.header {
+header {
     max-width: 505px;
+    margin: 6rem auto;
+    text-align: center;
 }
 
 .first-title {
     font-weight: lighter;
+    margin-bottom: 1rem;
 }
 
 .second-title {
     font-weight: bold;
+    margin-bottom: 1.6rem;
 }
