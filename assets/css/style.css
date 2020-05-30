@@ -91,6 +91,8 @@ p {
 
 .card p {
     margin: 1.5rem 0;
+    font-size: 0.8rem;
+    margin-top: 15px;
 }
 
 .img-container {
@@ -112,4 +114,22 @@ p {
 
 .calculator {
     border-top: solid 4px hsl(212, 86%, 64%);
+}
+
+@media (max-width: 600px) {
+    header {
+        max-width: 375px;
+    }
+
+    .main-wrapper {
+        flex-direction: column;
+    }
+
+    .main-title h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        padding: 15px;
+    }
 }
