@@ -17,7 +17,7 @@ FONTS:
 MEDIA QUERIES 
     - Mobile: 375px
     - Desktop: 1440px
-b
+
 BASE FONT SIZE:
     - 15px
 */
@@ -81,7 +81,7 @@ p {
     margin-bottom: 30px;
     border-radius: 5px;
     padding: 2rem;
-    box-shadow: 0px 20px 15px rgba(189, 203, 219, 0.6);
+    box-shadow: 0px 20px 20px rgba(189, 203, 219, 0.7);
 }
 
 .card h2 {
@@ -96,9 +96,6 @@ p {
 .img-container {
     width: 100%;
     text-align: right;
-}
-
-.card img {
 }
 
 .supervisor {
