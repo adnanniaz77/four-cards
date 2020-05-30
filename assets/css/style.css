@@ -117,12 +117,22 @@ p {
     border-top: solid 4px hsl(212, 86%, 64%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1070px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+    .card-wrapper {
+        min-width: 505px;
+    }
+}
+
+@media (max-width: 375px) {
     header {
         width: 310px;
     }
 
     .main-wrapper {
+        text-align: center;
         flex-direction: column;
     }
 
@@ -131,7 +141,7 @@ p {
     }
 
     .card-wrapper {
-        max-width: 310px;
+        min-width: 310px;
     }
 
     .card {
