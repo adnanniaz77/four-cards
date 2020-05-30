@@ -58,6 +58,7 @@ p {
 .main-wrapper {
     max-width: 1110px;
     margin: 0 auto;
+    /* background-color: #eee; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +66,6 @@ p {
 
 .card-wrapper {
     max-width: 350px;
-    height: 250px;
 }
 
 .middle {
@@ -95,13 +95,3 @@ p {
 .calculator {
     border-top: solid 5px hsl(212, 86%, 64%);
 }
-
-/* @media (max-width: 600px) {
-    .main-wrapper {
-        flex-direction: column;
-    }
-
-    .card-wrapper {
-        width: 500px;
-    }
-} */
