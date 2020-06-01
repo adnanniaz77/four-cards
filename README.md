@@ -7,11 +7,11 @@
 <h3>Description</h3>
 Complete the challenge from frontend mentor with desktop view and mobile view.
 
-<h3>Desktop View:</h3>
+<h4>Desktop View:</h4>
 
 <img src="./design/desktop-preview.jpg" alt="">
 
 <br />
 
-<h3>Mobile View</h3>
+<h4>Mobile View</h4>
 <img src="./design/mobile-design.jpg" alt="">
