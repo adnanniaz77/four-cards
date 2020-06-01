@@ -146,6 +146,8 @@ p {
 
     .card {
         margin-bottom: 25px;
+        text-align: initial;
+        width: 250px;
     }
 
     .img-container img {
